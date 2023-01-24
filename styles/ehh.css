@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(39, 40, 52);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    color: rgb(196, 249, 255);
+}
+
+.Banner {
+    background-color: rgb(0, 0, 0);
+    color: rgb(248,193,4);
+    padding: 5%;
+    text-align: right;
+    background-image: url(/img/Banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.TopNavBar {
+    background-color: rgb(212,48,4);
+    overflow: hidden;
+}
+
+.TopNavBar a {
+    float: left;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.TopNavBar a:hover {
+    background-color: rgb(52,117,189);
+    color: black;
+}
+
+.TopNavBar a.active {
+    background-color: #000000;
+    color: white;
+}
